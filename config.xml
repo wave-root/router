@@ -350,6 +350,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       <gateway>10.100.10.254</gateway>
       <domain>wave</domain>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <netboot>1</netboot>
+      <nextserver>10.100.10.11</nextserver>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -480,8 +482,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683374237.5342</time>
-    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1683377273.1219</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
