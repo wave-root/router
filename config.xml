@@ -391,6 +391,15 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>42:21:00:00:00:05</mac>
+        <ipaddr>10.100.10.105</ipaddr>
+        <hostname>wtw-05</hostname>
+        <domain>wtw-05.wave</domain>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </lan>
   </dhcpd>
   <unbound>
@@ -492,8 +501,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683401660.0481</time>
-    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1683402083.635</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
