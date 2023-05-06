@@ -480,8 +480,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683373948.6458</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1683374237.5342</time>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -945,6 +945,16 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
           <mx/>
           <server>10.100.10.254</server>
           <description>root@wave</description>
+        </host>
+        <host uuid="d840c1b9-36b1-4971-aa12-394439b70394">
+          <enabled>1</enabled>
+          <hostname>boot</hostname>
+          <domain>wave</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>10.100.10.11</server>
+          <description>&#x421;&#x435;&#x440;&#x432;&#x435;&#x440; &#x441;&#x435;&#x442;&#x435;&#x432;&#x43E;&#x439; &#x437;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x438;</description>
         </host>
       </hosts>
       <aliases/>
