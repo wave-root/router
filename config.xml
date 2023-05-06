@@ -352,8 +352,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <netboot>1</netboot>
       <nextserver>10.100.10.11</nextserver>
-      <filename>6.2.2/wtware.pxe</filename>
-      <filename64>6.2.2/bootx64.efi</filename64>
+      <filename>wtware/6.2.2/wtware.pxe</filename>
+      <filename64>wtware/6.2.2/bootx64.efi</filename64>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -484,7 +484,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683399088.0167</time>
+    <time>1683400543.4642</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
