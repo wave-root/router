@@ -331,6 +331,10 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
+    <opt1>
+      <descr>OPT1</descr>
+      <if>hn0</if>
+    </opt1>
   </interfaces>
   <dhcpd>
     <lan>
@@ -509,7 +513,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.103</username>
-    <time>1683482134.4832</time>
+    <time>1683482263.9755</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
