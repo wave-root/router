@@ -405,6 +405,14 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>f4:b5:20:2f:5b:35</mac>
+        <ipaddr>10.100.10.6</ipaddr>
+        <hostname>hv1</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>42:21:00:00:00:03</mac>
         <cid>boot-wave</cid>
         <ipaddr>10.100.10.11</ipaddr>
@@ -526,8 +534,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.103</username>
-    <time>1683481161.3439</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1683481537.0007</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
