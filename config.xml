@@ -534,8 +534,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.103</username>
-    <time>1683482291.6554</time>
-    <description>/interfaces.php made changes</description>
+    <time>1683483220.1523</time>
+    <description>/api/unbound/settings/set made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -986,7 +986,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <nxdomain>0</nxdomain>
       </dnsbl>
       <forwarding>
-        <enabled>0</enabled>
+        <enabled>1</enabled>
       </forwarding>
       <dots/>
       <hosts>
