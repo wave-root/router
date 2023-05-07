@@ -312,7 +312,6 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </system>
   <interfaces>
     <wan>
-      <enable>1</enable>
       <if>hn0</if>
       <ipaddr>dhcp</ipaddr>
       <ipaddrv6>dhcp6</ipaddrv6>
@@ -322,6 +321,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       <media/>
       <mediaopt/>
       <dhcp6-ia-pd-len>0</dhcp6-ia-pd-len>
+      <descr/>
     </wan>
     <lan>
       <if>hn1</if>
@@ -510,9 +510,9 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
-    <username>root@10.100.10.100</username>
-    <time>1683407653.2971</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>root@10.100.10.103</username>
+    <time>1683480248.5888</time>
+    <description>Interface (wan) is now disabled.</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
