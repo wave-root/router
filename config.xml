@@ -465,6 +465,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       <destination>
         <any/>
       </destination>
+      <log>1</log>
     </rule>
   </filter>
   <rrd>
@@ -525,7 +526,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.103</username>
-    <time>1683481148.9015</time>
+    <time>1683481154.3639</time>
     <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
