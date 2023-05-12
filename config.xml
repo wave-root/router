@@ -535,8 +535,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683883144.053</time>
-    <description>/api/unbound/settings/addHostOverride/ &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
+    <time>1683883315.267</time>
+    <description>/api/nginx/settings/addupstreamserver/ &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1068,6 +1068,16 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <ban_response>403</ban_response>
         <headers_more_enable/>
       </http>
+      <upstream_server uuid="3f7326f7-2d64-48a5-b09c-ab71144d8e59">
+        <description>wave upstream server http</description>
+        <server>10.100.10.254</server>
+        <port>80</port>
+        <priority>1</priority>
+        <max_conns>11</max_conns>
+        <max_fails>11</max_fails>
+        <fail_timeout>11</fail_timeout>
+        <no_use/>
+      </upstream_server>
       <location uuid="d00b6942-4027-42e2-b610-130a1b525b78">
         <description>wave root</description>
         <urlpattern>/</urlpattern>
