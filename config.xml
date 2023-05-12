@@ -535,8 +535,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683883123.5471</time>
-    <description>/api/nginx/settings/set &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
+    <time>1683883144.053</time>
+    <description>/api/unbound/settings/addHostOverride/ &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1019,6 +1019,16 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
           <mxprio/>
           <mx/>
           <server>10.100.10.100</server>
+          <description/>
+        </host>
+        <host uuid="4e5585c7-7d1c-49ca-ac19-8f3f45aa0743">
+          <enabled>1</enabled>
+          <hostname>wave</hostname>
+          <domain>wave</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>10.10.10.254</server>
           <description/>
         </host>
       </hosts>
