@@ -228,7 +228,7 @@
     <webgui>
       <protocol>http</protocol>
       <ssl-certref>64555fba1b4cc</ssl-certref>
-      <port/>
+      <port>8080</port>
       <ssl-ciphers/>
       <interfaces/>
       <compression/>
@@ -534,8 +534,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683880669.4723</time>
-    <description>/system_general.php made changes</description>
+    <time>1683880701.9644</time>
+    <description>/system_advanced_admin.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
