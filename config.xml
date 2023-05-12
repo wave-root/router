@@ -536,8 +536,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683884859.9272</time>
-    <description>/api/tftp/general/set made changes</description>
+    <time>1683884867.4582</time>
+    <description>/api/nginx/settings/set made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1051,7 +1051,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     </tftp>
     <Nginx version="1.32">
       <general>
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <ban_ttl>0</ban_ttl>
       </general>
       <webgui>
