@@ -535,8 +535,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683880851.4513</time>
-    <description>/system_advanced_admin.php made changes</description>
+    <time>1683883074.8977</time>
+    <description>/api/nginx/settings/addlocation/ &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1058,6 +1058,56 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <ban_response>403</ban_response>
         <headers_more_enable/>
       </http>
+      <location uuid="d00b6942-4027-42e2-b610-130a1b525b78">
+        <description>wave root</description>
+        <urlpattern>/</urlpattern>
+        <matchtype/>
+        <enable_secrules>0</enable_secrules>
+        <enable_learning_mode>0</enable_learning_mode>
+        <secrules_errorpage/>
+        <xss_block_score/>
+        <sqli_block_score/>
+        <custom_policy/>
+        <upstream/>
+        <path_prefix/>
+        <cache_path/>
+        <cache_use_stale/>
+        <cache_methods/>
+        <cache_min_uses>1</cache_min_uses>
+        <cache_background_update>0</cache_background_update>
+        <cache_lock>0</cache_lock>
+        <cache_revalidate>0</cache_revalidate>
+        <root>/srv/wave</root>
+        <rewrites/>
+        <index>index.html</index>
+        <autoindex>1</autoindex>
+        <authbasic/>
+        <authbasicuserfile/>
+        <advanced_acl>0</advanced_acl>
+        <force_https>0</force_https>
+        <php_enable>0</php_enable>
+        <php_override_scriptname/>
+        <limit_request_connections/>
+        <max_body_size/>
+        <body_buffer_size/>
+        <honeypot>0</honeypot>
+        <websocket>0</websocket>
+        <proxy_buffer_size/>
+        <proxy_buffers_count/>
+        <proxy_buffers_size/>
+        <proxy_busy_buffers_size/>
+        <proxy_ignore_client_abort>0</proxy_ignore_client_abort>
+        <proxy_request_buffering>1</proxy_request_buffering>
+        <proxy_buffering>1</proxy_buffering>
+        <proxy_read_timeout/>
+        <proxy_send_timeout/>
+        <http2_push_preload>0</http2_push_preload>
+        <ip_acl/>
+        <satisfy/>
+        <proxy_max_temp_file_size/>
+        <proxy_ssl_server_name>0</proxy_ssl_server_name>
+        <errorpages/>
+      </location>
     </Nginx>
   </OPNsense>
   <virtualip version="1.0.0">
