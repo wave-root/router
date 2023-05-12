@@ -271,7 +271,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-theme-vicuna,os-git-backup,os-tftp,os-nginx</plugins>
+      <plugins>os-theme-vicuna,os-git-backup,os-nginx</plugins>
       <type/>
       <subscription/>
     </firmware>
@@ -535,9 +535,9 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
-    <username>root@10.100.10.100</username>
-    <time>1683884867.4582</time>
-    <description>/api/nginx/settings/set made changes</description>
+    <username>(system)</username>
+    <time>1683884887.4492</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
