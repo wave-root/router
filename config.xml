@@ -263,7 +263,7 @@
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
-    <language>en_US</language>
+    <language>ru_RU</language>
     <dnsserver>8.8.8.8</dnsserver>
     <dnsserver>1.1.1.1</dnsserver>
     <firmware version="1.0.1">
@@ -533,9 +533,9 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1683880538.8295</time>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <username>root@10.100.10.100</username>
+    <time>1683880669.4723</time>
+    <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
