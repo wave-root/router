@@ -534,8 +534,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <time>1683880517.2052</time>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1683880538.2633</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1037,6 +1037,27 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <listen>127.0.0.1</listen>
       </general>
     </tftp>
+    <Nginx version="1.32">
+      <general>
+        <enabled>0</enabled>
+        <ban_ttl>0</ban_ttl>
+      </general>
+      <webgui>
+        <limitnetworks>0</limitnetworks>
+      </webgui>
+      <http>
+        <workerprocesses>1</workerprocesses>
+        <workerconnections>1024</workerconnections>
+        <sendfile>0</sendfile>
+        <keepalive_timeout>60</keepalive_timeout>
+        <reset_timedout>0</reset_timedout>
+        <default_type/>
+        <server_names_hash_bucket_size/>
+        <server_names_hash_max_size/>
+        <ban_response>403</ban_response>
+        <headers_more_enable/>
+      </http>
+    </Nginx>
   </OPNsense>
   <virtualip version="1.0.0">
     <vip/>
