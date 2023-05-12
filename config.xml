@@ -533,9 +533,9 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
-    <username>root@10.100.10.103</username>
-    <time>1683483220.1523</time>
-    <description>/api/unbound/settings/set made changes</description>
+    <username>root@10.100.10.100</username>
+    <time>1683880456.3644</time>
+    <description>/api/unbound/settings/delHostOverride/a8c98107-c103-4fc8-96e7-dc17982f71da made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1028,16 +1028,6 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
           <mxprio/>
           <mx/>
           <server>10.100.10.102</server>
-          <description/>
-        </host>
-        <host uuid="a8c98107-c103-4fc8-96e7-dc17982f71da">
-          <enabled>1</enabled>
-          <hostname>wtw-05</hostname>
-          <domain>wave</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>10.100.10.105</server>
           <description/>
         </host>
       </hosts>
