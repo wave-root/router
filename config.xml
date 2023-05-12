@@ -269,7 +269,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-theme-vicuna,os-git-backup</plugins>
+      <plugins>os-theme-vicuna,os-git-backup,os-tftp</plugins>
       <type/>
       <subscription/>
     </firmware>
@@ -534,8 +534,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <time>1683880516.9169</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1683880517.2052</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
