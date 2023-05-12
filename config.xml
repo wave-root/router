@@ -535,8 +535,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683883315.267</time>
-    <description>/api/nginx/settings/addupstreamserver/ &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
+    <time>1683883340.7769</time>
+    <description>/api/nginx/settings/addupstream/ &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1068,6 +1068,21 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <ban_response>403</ban_response>
         <headers_more_enable/>
       </http>
+      <upstream uuid="e49406c2-f0d2-4a4c-801e-b3efbbdf8feb">
+        <description>wave upstream</description>
+        <serverentries>3f7326f7-2d64-48a5-b09c-ab71144d8e59</serverentries>
+        <load_balancing_algorithm/>
+        <proxy_protocol>0</proxy_protocol>
+        <store>0</store>
+        <tls_enable>0</tls_enable>
+        <tls_client_certificate/>
+        <tls_name_override/>
+        <tls_protocol_versions/>
+        <tls_session_reuse>1</tls_session_reuse>
+        <tls_trusted_certificate/>
+        <tls_verify>1</tls_verify>
+        <tls_verify_depth>1</tls_verify_depth>
+      </upstream>
       <upstream_server uuid="3f7326f7-2d64-48a5-b09c-ab71144d8e59">
         <description>wave upstream server http</description>
         <server>10.100.10.254</server>
