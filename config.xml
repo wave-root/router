@@ -535,8 +535,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683883074.8977</time>
-    <description>/api/nginx/settings/addlocation/ &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
+    <time>1683883112.5831</time>
+    <description>/api/nginx/settings/addhttpserver/ &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1108,6 +1108,52 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <proxy_ssl_server_name>0</proxy_ssl_server_name>
         <errorpages/>
       </location>
+      <http_server uuid="2270a674-dd32-4019-9b85-fa05cbf2e977">
+        <servername>wave.wave</servername>
+        <syslog_targets/>
+        <listen_http_address>80,[::]:80</listen_http_address>
+        <listen_https_address/>
+        <default_server>0</default_server>
+        <tls_reject_handshake>0</tls_reject_handshake>
+        <proxy_protocol>0</proxy_protocol>
+        <trusted_proxies/>
+        <trusted_proxies_alias/>
+        <real_ip_source/>
+        <locations>d00b6942-4027-42e2-b610-130a1b525b78</locations>
+        <rewrites/>
+        <root/>
+        <certificate/>
+        <ca/>
+        <verify_client>off</verify_client>
+        <access_log_format>main</access_log_format>
+        <error_log_level>error</error_log_level>
+        <enable_acme_support>1</enable_acme_support>
+        <charset>utf-8</charset>
+        <https_only>0</https_only>
+        <tls_protocols>TLSv1.2,TLSv1.3</tls_protocols>
+        <tls_ciphers>ECDHE-ECDSA-CAMELLIA256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-CAMELLIA256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-CAMELLIA128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-CAMELLIA128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-CAMELLIA256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-CAMELLIA256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-CAMELLIA128-SHA256:ECDHE-RSA-AES128-SHA256</tls_ciphers>
+        <tls_ecdh_curve/>
+        <tls_prefer_server_ciphers>1</tls_prefer_server_ciphers>
+        <ocsp_stapling>0</ocsp_stapling>
+        <ocsp_verify>0</ocsp_verify>
+        <block_nonpublic_data>0</block_nonpublic_data>
+        <disable_bot_protection>0</disable_bot_protection>
+        <naxsi_whitelist_srcip/>
+        <naxsi_extensive_log>0</naxsi_extensive_log>
+        <sendfile>1</sendfile>
+        <client_header_buffer_size>1</client_header_buffer_size>
+        <large_client_header_buffers_number>4</large_client_header_buffers_number>
+        <large_client_header_buffers_size>8</large_client_header_buffers_size>
+        <security_header/>
+        <limit_request_connections/>
+        <max_body_size/>
+        <body_buffer_size/>
+        <ip_acl/>
+        <advanced_acl_server>Local Database</advanced_acl_server>
+        <satisfy/>
+        <zero_rtt>0</zero_rtt>
+        <errorpages/>
+      </http_server>
     </Nginx>
   </OPNsense>
   <virtualip version="1.0.0">
