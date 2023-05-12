@@ -534,8 +534,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683880701.9644</time>
-    <description>/system_advanced_admin.php made changes</description>
+    <time>1683880737.892</time>
+    <description>/api/tftp/general/set &#x432;&#x43D;&#x435;&#x441; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1033,8 +1033,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     </unboundplus>
     <tftp>
       <general version="0.0.1">
-        <enabled>0</enabled>
-        <listen>127.0.0.1</listen>
+        <enabled>1</enabled>
+        <listen>10.100.10.254</listen>
       </general>
     </tftp>
     <Nginx version="1.32">
