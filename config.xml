@@ -481,6 +481,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <direction>in</direction>
+      <disabled>1</disabled>
       <log>1</log>
       <quick>1</quick>
       <protocol>icmp</protocol>
@@ -492,7 +493,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       </destination>
       <updated>
         <username>root@10.100.10.100</username>
-        <time>1684260787.3935</time>
+        <time>1684262295.7295</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -560,7 +561,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684260787.4352</time>
+    <time>1684262295.7699</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
