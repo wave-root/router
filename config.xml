@@ -449,7 +449,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     </outbound>
   </nat>
   <filter>
-    <rule>
+    <rule uuid="7844eac2-f9bc-432e-95eb-17a7c66326e3">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
       <descr>Default allow LAN to any rule</descr>
@@ -462,7 +462,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       </destination>
       <log>1</log>
     </rule>
-    <rule>
+    <rule uuid="46c16549-5c47-48fd-be44-bb84164163f8">
       <type>pass</type>
       <ipprotocol>inet6</ipprotocol>
       <descr>Default allow LAN IPv6 to any rule</descr>
@@ -474,6 +474,32 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <any/>
       </destination>
       <log>1</log>
+    </rule>
+    <rule uuid="190750a0-f4f6-444b-af39-d89c28f61655">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <protocol>icmp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.100.10.100</username>
+        <time>1684260787.3935</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.100.10.100</username>
+        <time>1684260787.3935</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
     </rule>
   </filter>
   <rrd>
@@ -534,8 +560,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684221806.5928</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1684260787.4352</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
