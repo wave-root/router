@@ -389,14 +389,6 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>42:21:00:00:00:04</mac>
-        <hostname>wtw-01</hostname>
-        <domain>wtw-01.wave</domain>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>42:21:00:00:00:06</mac>
         <ipaddr>10.100.10.1</ipaddr>
         <hostname>hv0</hostname>
@@ -558,7 +550,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684272013.3124</time>
+    <time>1684272019.2476</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
