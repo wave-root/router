@@ -561,8 +561,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684271239.7682</time>
-    <description>/api/unbound/settings/delHostOverride/d840c1b9-36b1-4971-aa12-394439b70394 made changes</description>
+    <time>1684271246.7553</time>
+    <description>/api/unbound/settings/delHostOverride/4e5585c7-7d1c-49ca-ac19-8f3f45aa0743 made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1035,16 +1035,6 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
           <mxprio/>
           <mx/>
           <server>10.100.10.100</server>
-          <description/>
-        </host>
-        <host uuid="4e5585c7-7d1c-49ca-ac19-8f3f45aa0743">
-          <enabled>1</enabled>
-          <hostname>wave</hostname>
-          <domain>wave</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>10.10.10.254</server>
           <description/>
         </host>
       </hosts>
