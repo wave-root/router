@@ -373,7 +373,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <item/>
       </numberoptions>
       <range>
-        <from>10.100.10.10</from>
+        <from>10.100.10.100</from>
         <to>10.100.10.245</to>
       </range>
       <winsserver/>
@@ -431,7 +431,6 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
-      <pool/>
     </lan>
   </dhcpd>
   <unbound>
@@ -535,8 +534,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684221715.3213</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1684221738.6027</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
