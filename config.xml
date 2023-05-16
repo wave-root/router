@@ -415,16 +415,6 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>42:21:00:00:00:03</mac>
-        <cid>boot-wave</cid>
-        <ipaddr>10.100.10.11</ipaddr>
-        <hostname>boot</hostname>
-        <descr>&#x421;&#x435;&#x440;&#x432;&#x435;&#x440; &#x441;&#x435;&#x442;&#x435;&#x432;&#x43E;&#x439; &#x437;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x438;</descr>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>42:21:00:00:00:05</mac>
         <ipaddr>10.100.10.105</ipaddr>
         <hostname>wtw-05</hostname>
@@ -433,6 +423,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <pool/>
     </lan>
   </dhcpd>
   <unbound>
@@ -536,8 +527,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1683884949.1961</time>
-    <description>/system_advanced_admin.php made changes</description>
+    <time>1684221701.693</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
