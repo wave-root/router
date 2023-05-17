@@ -550,8 +550,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684320175.7365</time>
-    <description>/api/unbound/settings/setHostOverride/72c90afa-d2db-466f-9c73-ed67d72551c0 made changes</description>
+    <time>1684324282.5776</time>
+    <description>/api/unbound/settings/addDomainOverride/ made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1044,6 +1044,12 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
           <domain>wave</domain>
           <server>10.100.10.254</server>
           <description>wave</description>
+        </domain>
+        <domain uuid="26c92398-b8bf-4b92-9721-c26b3125e55e">
+          <enabled>1</enabled>
+          <domain>fixiki.wave</domain>
+          <server>10.100.10.10</server>
+          <description/>
         </domain>
       </domains>
     </unboundplus>
