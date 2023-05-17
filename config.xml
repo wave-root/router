@@ -408,12 +408,12 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       </staticmap>
       <staticmap>
         <mac>42:21:01:00:10:10</mac>
-        <cid>pdc.fixiki</cid>
+        <cid>fixiki-in-wave</cid>
         <ipaddr>10.100.10.10</ipaddr>
-        <hostname>pdc</hostname>
+        <hostname>fixiki</hostname>
         <descr>&#x41A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440; &#x434;&#x43E;&#x43C;&#x435;&#x43D;&#x430; &#x444;&#x438;&#x43A;&#x441;&#x438;&#x43A;&#x43E;&#x432;</descr>
         <gateway>10.100.10.254</gateway>
-        <domain>fixiki</domain>
+        <domain>wave</domain>
         <winsserver/>
         <dnsserver>10.100.10.10</dnsserver>
         <dnsserver>10.100.10.254</dnsserver>
@@ -550,8 +550,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684272019.2476</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1684320119.3539</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
