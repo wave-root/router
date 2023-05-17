@@ -550,8 +550,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684324282.5776</time>
-    <description>/api/unbound/settings/addDomainOverride/ made changes</description>
+    <time>1684324397.1457</time>
+    <description>/api/unbound/settings/addForward/ made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1004,7 +1004,16 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
       <forwarding>
         <enabled>1</enabled>
       </forwarding>
-      <dots/>
+      <dots>
+        <dot uuid="e6c39eef-81fe-4b12-8b8d-049e70fd6dcc">
+          <enabled>1</enabled>
+          <type>forward</type>
+          <domain>fixiki.wave</domain>
+          <server>10.100.10.10</server>
+          <port>53</port>
+          <verify/>
+        </dot>
+      </dots>
       <hosts>
         <host uuid="e1565e4c-4d4b-4baf-8fb0-a9176f664b33">
           <enabled>1</enabled>
