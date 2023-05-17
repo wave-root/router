@@ -544,14 +544,14 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   <widgets>
     <sequence>interface_list-container:00000000-col1:show,system_information-container:00000001-col1:show,services_status-container:00000002-col1:show,interface_statistics-container:00000003-col2:show,traffic_graphs-container:00000004-col4:show,log-container:00000005-col6:show</sequence>
     <column_count>2</column_count>
-    <filterlogentries>20</filterlogentries>
+    <filterlogentries>16</filterlogentries>
     <filterlogentriesupdateinterval>2</filterlogentriesupdateinterval>
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684324930.5391</time>
-    <description>Widget configuration has been changed</description>
+    <time>1684324954.8417</time>
+    <description>Saved Filter Log Entries via Dashboard</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
