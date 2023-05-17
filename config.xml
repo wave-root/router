@@ -546,11 +546,11 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     <column_count>2</column_count>
     <filterlogentries>11</filterlogentries>
     <filterlogentriesupdateinterval>2</filterlogentriesupdateinterval>
-    <filterlogentriesacts>Pass Reject</filterlogentriesacts>
+    <filterlogentriesacts>Pass</filterlogentriesacts>
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684324771.7378</time>
+    <time>1684324778.2709</time>
     <description>Saved Filter Log Entries via Dashboard</description>
   </revision>
   <OPNsense>
