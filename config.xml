@@ -542,7 +542,7 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <widgets>
-    <sequence>interface_list-container:00000000-col1:show,interface_statistics-container:00000001-col1:show,system_information-container:00000002-col1:show,services_status-container:00000003-col1:show,traffic_graphs-container:00000004-col4:show,log-container:00000005-col6:show</sequence>
+    <sequence>interface_list-container:00000000-col1:show,system_information-container:00000001-col1:show,services_status-container:00000002-col1:show,interface_statistics-container:00000003-col2:show,traffic_graphs-container:00000004-col4:show,log-container:00000005-col6:show</sequence>
     <column_count>2</column_count>
     <filterlogentries>20</filterlogentries>
     <filterlogentriesupdateinterval>2</filterlogentriesupdateinterval>
@@ -550,8 +550,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684324910.5776</time>
-    <description>Saved Filter Log Entries via Dashboard</description>
+    <time>1684324930.5391</time>
+    <description>Widget configuration has been changed</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
