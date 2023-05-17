@@ -550,8 +550,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
   </widgets>
   <revision>
     <username>root@10.100.10.100</username>
-    <time>1684320158.2981</time>
-    <description>/api/unbound/settings/delDomainOverride/20b36a0d-1f33-4c05-95e2-7d62dbabd295 made changes</description>
+    <time>1684320175.7365</time>
+    <description>/api/unbound/settings/setHostOverride/72c90afa-d2db-466f-9c73-ed67d72551c0 made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1028,8 +1028,8 @@ L9XVrs6cLBNfcWcHQxXgAAAAEHJvb3RAaW4td2F2ZS5jb20BAgMEBQ==&#xD;
         </host>
         <host uuid="72c90afa-d2db-466f-9c73-ed67d72551c0">
           <enabled>1</enabled>
-          <hostname>pdc</hostname>
-          <domain>fixiki</domain>
+          <hostname>fixiki</hostname>
+          <domain>wave</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
